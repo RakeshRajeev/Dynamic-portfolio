@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My  portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+   <div class="site-main-wrapper">
+     <button id="ham"class="hamberger">
+       <img src="images/hamberger.svg" alt="">
+     </button>
+      
+     <div class="mobile-nav">
+       <button class="times"><img src="./images/times.svg" alt=""></button>
+       <ul>
+         <li ><a id="shortcut" href="#">Home</a></li>
+         <li ><a id="shortcut" href="#about">About</a></li>
+         <li ><a id="shortcut" href="#skill">Skills</a></li>
+         <li ><a id="shortcut" href="#project">Project</a></li>
+         <li ><a id="shortcut" href="#experience">experience</a></li>
+         <li ><a id="shortcut" href="#contact">contact</a></li>
+       </ul>
+     </div>
+    <header>
+      <div class="container">
+        <nav id="main-nav"class="flex items-center justify-between">
+           <div class="left flex items-center">
+               <div class="branding ">
+                  <img src="./images/log.svg" alt="">
+               </div>
+                <div>
+                   <a href="#">Home</a>
+                   <a href="#about">About</a>
+                   <a href="#skill">Skills</a> 
+                   <a href="#project">Project</a>
+                   <a href="#experience">Experience</a>
+                 </div>
+            </div>
+           <div class="right">
+              <button onclick="location.href='#contact'" class="btn btn-primary">Contact</button>
+            </div>
+       </nav>
+       <div class="hero flex items-center justify-between">
+         <div class="left flex-1">
+             <h6>Rakesh R</h6>
+             <h1>Frontend Developer</h1>
+             <p>Enthusiastic Frontend Web Developer eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of tasks and training in
+             JAVASCRIPT,HTML & CSS.Motivated to learn,grow and excel in Software Industry.</p>
+             <div class="btn-wrapper">
+               <button id="btn" class="btn btn-secondary" onclick="window.open('//drive.google.com/file/d/1BUc9Rho8LlbTm1z8h9JuY_iyJaWuiiYA/view?usp=sharing','_blank')">DOWNLOAD CV</button>
+             </div>
+          </div>
+         <div class="right flex-1 flex justify-center">
+           <img src="./images/man.png" alt="">
+         </div>  
+       </div>
+     </div>
+  </header>
+
+  <!-- About section -->
+
+  <section id ="about" class="about">
+    <div class="container flex items-center about-inner-wrap">
+      <div class="flex-1">
+        <img class="about-me-img"src="./images/man-2.png" alt="">
+      </div>
+      <div class="flex-1 right">
+        <div class="about-top">
+        <h2>About <span>Me</span></h2>
+        <h4>Hello! i'm Rakesh Rajeev</h4>
+        <p>
+          Fresher Software Developer based in chickmaglur and a certified Full Stack Developer by Guvi in collaboration with IIT Madras. Served one of the prestigious Automotive Employer as a Mechanical Engineer.
+          Now i am open to opportunities to switch my carrier as a Web Developer.  
+        </p>
+      </div>
+        <div class="content"> 
+            <ul>
+              <li>
+                <img src="./images/calendar.svg" alt="">
+                <strong>Birthday:</strong>
+                <span>28 January 1993</span>
+              </li>
+              <li>
+                <img src="./images/phone1.svg" alt="">
+                <strong>Phone:</strong>
+                <span>+91 9108929606</span>
+              </li>
+              <li>
+                <img src="./images/house-fill.svg" alt="">
+                <strong>City:</strong>
+                <span>chickmaglur,Karnataka,India</span>
+              </li>
+              <li>
+                <img src="./images/mortarboard.svg" alt="">
+                <strong>Degree:</strong>
+                <span>B.E in Mechanical Engineering</span>
+              </li>
+            </ul>
+        </div>
+        <div class="social">
+          <a href="#"  target="_blank"><img src="./images/website.svg" alt=""></a>
+          <a href="https://www.facebook.com/rakeshrpalan"  target="_blank"><img src="./images/facebook.svg" alt=""></a>
+          <a href="https://github.com/RakeshRajeev"  target="_blank"><img src="./images/github.svg" alt=""></a>
+          <a href="https://www.instagram.com/rakesh_palan/"  target="_blank"><img src="./images/insta.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skill section -->
+
+  <section id="skill" class="skill">
+    <div class="container">
+      <div class="heading">
+        <h2>SKILLS</h2> <hr>
+      </div>
+      <div class="skill-detail flex ">
+        <div class="flex-1 right">
+          <div class="progress">
+            <span>Javascript</span>
+            <div class=" prog1 w3-light-grey w3-round-xlarge">
+              <div class="prog w3-container w3-round-xlarge w3-light-blue" style="width:75%">75%</div>
+            </div>
+          </div>
+          <div class="progress">
+            <span>HTML</span>
+            <div class=" prog1 w3-light-grey w3-round-xlarge">
+              <div class="prog w3-container w3-round-xlarge w3-light-blue" style="width:85%">85%</div>
+            </div>
+          </div>
+          <div class="progress">
+            <span>CSS</span>
+            <div class=" prog1 w3-light-grey w3-round-xlarge">
+              <div class="prog w3-container w3-round-xlarge w3-light-blue" style="width:80%">80%</div>
+            </div>
+          </div>
+          <div class="progress">
+            <span>React JS</span>
+            <div class=" prog1 w3-light-grey w3-round-xlarge">
+              <div class="prog w3-container w3-round-xlarge w3-light-blue" style="width:50%">50%</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 left">
+          <div class="progress">
+            <span>Tailwind/Bootstrap</span>
+            <div class=" w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-round-xlarge w3-light-blue" style="width:50%">50%</div>
+            </div>
+          </div>
+          <div class="progress">
+            <span>Usability understanding</span>
+            <div class=" w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-round-xlarge w3-light-blue" style="width:80%">80%</div>
+            </div>
+          </div>
+          <div class="progress">
+            <span>Web development projects</span>
+            <div class=" w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-round-xlarge w3-light-blue" style="width:70%">70%</div>
+            </div>
+          </div>
+          <div class="progress">
+            <span>UI improvements</span>
+            <div class=" w3-light-grey w3-round-xlarge">
+              <div class="w3-container w3-round-xlarge w3-light-blue" style="width:70%">70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- project section -->
+
+  <section id="project" class="Project">
+    <div class="container">
+      <h1 class="section-heading"><span>My </span>Projects</h1>
+      <div class="card-wrapper">
+       <div class="card">
+         <img src="./images/Electron.jpg" alt="">
+         <h2>Electron Media Converter</h2>
+         <p>Develop a desktop application to convert a mp4 video file to HLS(m3u8) video file using Electron JS and FFMPEG plugin.</p>
+       </div>
+       <div class="card">
+        <img src="./images/pizza.png" alt="">
+        <h2>Pizza delivery app</h2>
+        <p>A full stack app using react, mongo db and nodejs</p>
+       </div>
+       <div class="card">
+        <img src="./images/blog.png" alt="">
+        <h2>.</h2>
+        <p>Blog on Rashtrakavi Kuvempu</p>
+       </div>
+       <div class="card">
+        <img src="./images/portfolio.png" alt="">
+        <h2>.</h2>
+        <p>Bulding Dynamic portfolio using HTML ,CSS and Javascript </p>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- experience section heading -->
+
+  <section id="experience" class="experience-heading">
+    <h2>Professional Experience</h2>
+    <p>To seek and maintain a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.</p>
+     <button id="btn" class="btn btn-primary" onclick="window.open('//drive.google.com/file/d/1BUc9Rho8LlbTm1z8h9JuY_iyJaWuiiYA/view?usp=sharing','_blank')">DOWNLOAD CV</button>
+  </section>
+ 
+  <!-- experience section content -->
+
+  <section class="experience">
+    <div class="container">
+      <div class="slider">
+         <div class="slide">
+           <img src="./images/iti.png" alt="">
+           <h3>Industrial Training Institute -Technical Officer</h3>
+           <p>Guiding and Insisting Trainees on Industrial Aspects - Entrepreneurship, Productivity, Labour acts, Ethics,Etiquette and Occupational Safety and Health.Training on Quality tools – Kaizen, Quality Circle, ISO 9001, 5S ,5D, Cause and Effect Diagram,
+            PDCACheck list, Pareto Chart, Control Charts.</p>
+        </div>
+        <div class="slide">
+          <img src="./images/Autoliv.png" alt="">
+          <h3>Autoliv - Quality Engineer</h3>
+          <p>Conduct Vendor Audit periodically.Responsible for reducing supplier rejection, Improve product & process Quality by conducting
+            statistical studies & Audits.Attain & receive customer complaint & find out root cause through why-why analysis using 7QC tools</p>
+       </div>
+       <div class="slide">
+        <img src="./images/rawpower.png" alt="">
+        <h3>Rapowergen - Quality Assurance Supervisor</h3>
+        <p>Incoming Inspection of raw material, sub contracted items &bought out items.Verification of all incoming raw materials with relevant standard (based on CE & specific customer
+          requirements).Final inspection & verifying layout inspection report, Coordinating and arranging third party
+          inspections</p>
+     </div>
+      </div>
+      <div class="slider-dots"></div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="contact">
+     <div class="container">
+       <h1 class="section-heading">Contact <span>ME</span></h1>
+       <p>REACH OUT TO ME </p>
+       <div class="card-wrapper">
+         <div class="card">
+           <img src="./images/phone1.svg" alt="">
+           <h2>Call Me on</h2>
+           <h6>+91 9108929606</h6>
+         </div>
+         <div class="card">
+          <img src="./images/msg.svg" alt="">
+          <h2>Email Me</h2>
+          <h6>palanrakesh@gmail.com</h6>
+        </div>
+        <div class="card">
+          <img src="./images/map.svg" alt="">
+          <h2>Location</h2>
+          <h6>Chikmaglure,Karnataka</h6>
+        </div>
+       </div>
+       <form action="">
+        <div class="input-wrap">
+          <input type="text" placeholder="Your Name*">
+          <input type="email" placeholder="Your Email*">
+        </div>
+        <div class="input-wrap2">
+          <input type="text" placeholder="Your Subject...">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+        </div>
+        <div class="btn-wrapper">
+          <button class="btn btn-primary">Send Message</button>
+        </div>
+       </form>
+     </div>
+  </section>
+
+  <footer>
+    <img class="footer-logo" src="./images/log.svg" alt="">
+    <div class="footer-socials">
+      <a href="#"  target="_blank"><img src="./images/website.svg" alt=""></a>
+      <a href="https://www.facebook.com/rakeshrpalan"  target="_blank"><img src="./images/facebook.svg" alt=""></a>
+      <a href="https://www.instagram.com/rakesh_palan/"  target="_blank"><img src="./images/insta.svg" alt=""></a>
+      <a href="https://github.com/RakeshRajeev"  target="_blank"><img src="./images/github.svg" alt=""></a>
+    </div>
+    <div class="copyright">
+      <p>Copyright 2022@ Rakesh Rajeeva .All Rights Reserved.</p> 
+    </div>
+  </footer>
+   </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
