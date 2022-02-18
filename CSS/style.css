@@ -483,7 +483,7 @@ section.contact  .btn-wrapper{
  .hamberger{
      position: fixed;
      top: 40px;
-     right: 40px;
+     right: 65px;
      z-index: 11;
      background: none;
      border: none;
@@ -623,9 +623,18 @@ section.contact  .btn-wrapper{
     .about .right p{
         font-size: 0.8rem;
     }
-    section.about .content{
-        margin-left: -2rem;
-        justify-content: center;
+    
+    section.about .content .li1{
+      margin-left:-0.5rem;
+    }   
+    section.about .content .li2{
+      margin-left:-1.5rem;
+    }
+    section.about .content .li3{
+        margin-left: 1rem;
+    }
+    section.about .content .li4{
+        margin-left: -0.5rem;
     }
     section.about .content li img{
         width: 16px;
