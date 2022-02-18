@@ -188,7 +188,7 @@ section.about .content span{
 }
 
 section.about .social a{
-    background: var(--ternary);
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
