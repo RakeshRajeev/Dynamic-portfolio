@@ -25,7 +25,7 @@ $('.slider').slick({
 let hamberger = document.querySelector('.hamberger');
 let times = document.querySelector('.times');
 let mobileNav = document.querySelector('.mobile-nav');
-let shortCut=document.querySelector('.shortcut')
+let tree=document.querySelector('.tree')
 
 
 hamberger.addEventListener('click',function(){
@@ -36,10 +36,9 @@ times.addEventListener('click',function(){
     mobileNav.classList.remove('open');
 })
 
-shortCut.addEventListener('click',function(){
-    times.classList.remove('open')
+tree.addEventListener('click',function(){
+    mobileNav.classList.remove('open');
 })
-
 
 
 });
